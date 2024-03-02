@@ -1,0 +1,142 @@
+html {
+    width: 100%;
+}
+body {
+    background-color: white;
+}
+h1 {
+    color: maroon;
+    margin-left: 30px;
+  } 
+
+table {
+    padding: 0px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 0px;
+    border-style: none;
+}
+td {
+    padding: 0px;
+    width: 140px;
+    height: 80px;
+    min-width: 140px;
+}
+
+.memberCell{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 4px solid blueviolet;
+    outline-offset: -6px;
+    
+
+    background: #00f;
+    margin: 0px;
+
+    background-color: white;
+    text-align: center;
+    text-shadow: bold;
+}
+
+.memPartner-common {
+    background-color: pink;
+}
+
+.memPartner-married {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 5px solid rgb(20, 192, 17);
+    outline-offset: -4px;
+    
+
+    background: #00f;
+    margin: 0px;
+
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.memPartner {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 5px solid gray;
+    outline-offset: -4px;
+    margin: 0px;
+
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.memMale {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 4px solid rgb(5, 65, 176);
+    outline-offset: -5px;
+
+    margin: 0px;
+
+    background-color: rgb(148, 188, 244);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+/*
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+ */
+}
+
+
+/*
+background: lightblue;
+display: flex;
+justify-content: center;
+text-decoration: none;
+*/
+
+.memFemale {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ 
+    outline: 4px solid rgb(198, 103, 127);
+    outline-offset: -5px;
+    
+    background: #00f;
+    margin: 0px;
+
+    background-color: white;
+    text-align: center;
+    color:rgb(33, 4, 19);
+    font-weight: bold;
+}
+
+.memUnknownSex {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ 
+    outline: 4px solid rgb(13, 109, 4);
+    outline-offset: -6px;
+    
+    background: #00f;
+    margin: 0px;
+
+    background-color: white;
+    text-align: center;
+    color:rgb(33, 4, 19);
+    font-weight: bold;
+}
+
+.memberCard {
+    background-color: antiquewhite;
+    border: maroon;
+    border-width: 3px;
+}
